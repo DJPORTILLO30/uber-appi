@@ -1,4 +1,4 @@
-package repositories;
+package com.prouxs.UberAPI.repositories;
 
 import com.prouxs.UberAPI.entities.Viaje;
 import org.springframework.data.repository.CrudRepository;
