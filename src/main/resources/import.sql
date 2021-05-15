@@ -4,6 +4,6 @@ insert into personas(id, nombre, apellido, telefono, correo) values (3, 'Marge',
 insert into personas(id, nombre, apellido, telefono, correo) values (4, 'Lisa', 'Simpson', '12345678', 'lisa@fox.com');
 
 insert into viajes(id, id_persona, id_piloto, origen, destino, estado, monto) values (1, 1, 1, 'Zona1', 'Zona2', 'Finalizado', 100);
-insert into viajes(id, id_persona, id_piloto, origen, destino, estado, monto) values (2, 2, 2, 'Zona10', 'Zona3','En_Marcha', 100);
-insert into viajes(id, id_persona, id_piloto, origen, destino, estado, monto) values (3, 1,  , 'Zona2', 'Zona1', 'Creado', 100);
-insert into viajes(id, id_persona, id_piloto, origen, destino, estado, monto) values (4, 2, 4, 'Zona1', 'Zona2', 'Aceptado', 100);
+insert into viajes(id, id_persona, id_piloto, origen, destino, estado, monto) values (2, 2, 2, 'Zona10', 'Zona3','En_Marcha', );
+insert into viajes(id, id_persona, id_piloto, origen, destino, estado, monto) values (3, 1,  , 'Zona2', 'Zona1', 'Creado', );
+insert into viajes(id, id_persona, id_piloto, origen, destino, estado, monto) values (4, 2, 4, 'Zona1', 'Zona2', 'Aceptado', );
