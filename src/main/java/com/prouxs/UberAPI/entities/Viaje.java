@@ -20,8 +20,11 @@ public class Viaje {
     @Column(name = "id_piloto")
     private Long idPiloto;
 
-    @Column(name = "zona")
-    private String zona;
+    @Column(name = "origen")
+    private String origen;
+
+    @Column(name = "destino")
+    private String destino;
 
     @Column(name = "estado")
     private String estado;
@@ -30,11 +33,12 @@ public class Viaje {
     private Integer monto;
 
 
-    public Viaje(Long id, Long idPersona, Long idPiloto, String zona, String estado, Integer monto) {
+    public Viaje(Long id, Long idPersona, Long idPiloto, String origen, String destino,String estado, Integer monto) {
         this.id = id;
         this.idPersona = idPersona;
         this.idPiloto = idPiloto;
-        this.zona = zona;
+        this.origen = origen;
+        this.destino = destino;
         this.estado = estado;
         this.monto = monto;
     }
@@ -63,12 +67,20 @@ public class Viaje {
         this.idPiloto = idPiloto;
     }
 
-    public String getZona() {
-        return zona;
+    public String getOrigen() {
+        return origen;
     }
 
-    public void setZona(String zona) {
-        this.zona = zona;
+    public void setOrigen(String origen) {
+        this.origen = origen;
+    }
+
+    public String getDestino() {
+        return destino;
+    }
+
+    public void setDestino(String destino) {
+        this.destino = destino;
     }
 
     public String getEstado() {
