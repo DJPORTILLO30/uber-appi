@@ -43,6 +43,10 @@ public class Viaje {
         this.monto = monto;
     }
 
+    public Viaje(){
+        super();
+    }
+
     public Long getId() {
         return id;
     }

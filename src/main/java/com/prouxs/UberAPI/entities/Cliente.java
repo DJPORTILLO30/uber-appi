@@ -28,12 +28,17 @@ public class Cliente {
     @NotNull
     private String correo;
 
+
+
     public Cliente(Long id, String nombre, String apellido, Integer telefono, String correo) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
         this.telefono = telefono;
         this.correo = correo;
+    }
+    public Cliente(){
+        super();
     }
 
     public Long getId() {

@@ -6,8 +6,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import com.prouxs.UberAPI.entities.Cliente;
-import com.prouxs.UberAPI.repositories.ClienteRepository;
-
+import com.prouxs.UberAPI.repositories.*;
 import java.util.Date;
 
 @RestController
@@ -25,6 +24,7 @@ public class ClienteController {
         Cliente nuevoCliente = clienteRepository.save(cliente);
         return nuevoCliente;
     }
+
 
 }
 
